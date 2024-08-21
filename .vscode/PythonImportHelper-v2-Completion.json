@@ -27,6 +27,39 @@
         "documentation": {}
     },
     {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "Service",
+        "importPath": "selenium.webdriver.chrome.service",
+        "description": "selenium.webdriver.chrome.service",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.service",
+        "documentation": {}
+    },
+    {
+        "label": "ChromeDriverManager",
+        "importPath": "webdriver_manager.chrome",
+        "description": "webdriver_manager.chrome",
+        "isExtraImport": true,
+        "detail": "webdriver_manager.chrome",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
         "label": "offset",
         "kind": 5,
         "importPath": "h&m_MensData",
@@ -51,6 +84,24 @@
         "description": "h&m_MensData",
         "peekOfCode": "df = pd.DataFrame(data)\ndf.to_csv(\"H&M Website Men's Category Data Extraction\", index=True)",
         "detail": "h&m_MensData",
+        "documentation": {}
+    },
+    {
+        "label": "option",
+        "kind": 5,
+        "importPath": "seleniumPart",
+        "description": "seleniumPart",
+        "peekOfCode": "option = webdriver.ChromeOptions()\ndriver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=option)",
+        "detail": "seleniumPart",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "seleniumPart",
+        "description": "seleniumPart",
+        "peekOfCode": "driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=option)",
+        "detail": "seleniumPart",
         "documentation": {}
     }
 ]
